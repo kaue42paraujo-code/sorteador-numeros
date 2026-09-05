@@ -3,10 +3,6 @@ function sortear() {
     let de = parseInt(document.getElementById("de").value);
     let ate = parseInt (document.getElementById("ate").value);
 
-    if (quantidade <= de || quantidade <= ate) {
-        alert("O intervalo de números é menor que a quantidade de números sorteados. Por favor, insira um intervalo maior.");
-        return;
-    }
 
     let sorteados = [];
     let numero;
